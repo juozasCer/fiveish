@@ -28,7 +28,7 @@ h:root {
 .image-containerhands {
   position: absolute;
   z-index: 10;
-  top: 1275px; /* Positions image container above the chart */
+  top: 1245px; /* Positions image container above the chart */
   right: 30vh; /* Moves image container slightly to the right */
   /* background-color: #ffffff; Background color for image container */
   /* border: 1px solid #ccc; Optional border for visibility */

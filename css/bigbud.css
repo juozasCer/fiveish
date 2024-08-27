@@ -23,12 +23,12 @@ h:root {
   align-items: center; /* Centers child vertically */
   /* height: 100vh; Full viewport height */
   /* background-color: #f0f0f0; Optional background for visibility */
-  height:100%;
+  height:120%;
 }
 .image-containerhands {
   position: absolute;
   z-index: 10;
-  top: 872px; /* Positions image container above the chart */
+  top: 1275px; /* Positions image container above the chart */
   right: 30vh; /* Moves image container slightly to the right */
   /* background-color: #ffffff; Background color for image container */
   /* border: 1px solid #ccc; Optional border for visibility */
@@ -43,7 +43,7 @@ h:root {
 
 .image-container {
   position: absolute;
-  top: 520px; /* Positions image container above the chart */
+  top: 860px; /* Positions image container above the chart */
   right: 30vh; /* Moves image container slightly to the right */
   /* background-color: #ffffff; Background color for image container */
   /* border: 1px solid #ccc; Optional border for visibility */
@@ -87,7 +87,7 @@ h:root {
    z-index: 0;
   height: 70%;
   position: relative;
-  top: 250px;
+  top: 335px;
   bottom: 0%;
   left: 0vh;
   right: 0%;
@@ -99,7 +99,7 @@ h:root {
   z-index: 3;
  height: 170px;
  position: absolute;
- top: 840px;
+ top: 940px;
  bottom: 0%;
 }
 
@@ -206,6 +206,35 @@ h:root {
   display: flex;
   position: relative;
 }
+
+.parent-container2 {
+  display: flex;
+  position: relative;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 40vh;
+  top: 100px; /* Full viewport height */
+  margin: 0;
+  /* Optional: background-color for visibility */
+  /* background-color: #f0f0f0; */
+}
+
+.block_ca {
+  background-color: #101d48;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 650px; /* Set a fixed width */
+  height: 60px; /* Set a fixed height */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px; /* Adjust margin if needed */
+}
+
 .buy-now-btn {
   background-color: #13a337; /* Button color */
   color: white; /* Text color */
@@ -218,9 +247,9 @@ h:root {
   border: none; /* Remove default button border */
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease; /* Smooth hover transition */
-  bottom: 150px;
-  position: relative;
+  /* Adjust vertical positioning if needed */
 }
+
 
 .buy-now-btn:hover {
   background-color: #138da3; /* Darker color on hover */
@@ -1247,7 +1276,7 @@ h:root {
   padding: 100px;
   display: flex;
   position: absolute;
-  top: 0%;
+  /* top: 0%; */
   /* bottom: 50px; */
   left: 0%;
   right: 0%;
@@ -1330,7 +1359,7 @@ h:root {
 
 .image-3 {
   height: 450px;
-  margin-top: 350px;
+  margin-top: 250px;
   position: relative;
 }
 
@@ -1509,12 +1538,12 @@ h:root {
 }
 
 .text-block {
-  color: #000;
+  color: #ffffff;
   font-family: Changa One, Impact, sans-serif;
   font-size: 20px;
 }
 
-.block_ca {
+/* .block_ca {
   background-color: #101d48;
   border: 2px solid #000;
   border-bottom-width: 5px;
@@ -1523,12 +1552,14 @@ h:root {
   align-items: center;
   width: 650px;
   height: 60px;
-  margin-top: 25px;
+  margin-top: 200px;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   position: relative;
-}
+  margin-bottom: 100px;
+  left: 50vh;
+} */
 
 .ca_txt {
   color: #ffffff;
@@ -1551,7 +1582,7 @@ h:root {
   position: absolute;
   top: auto;
   bottom: auto;
-  left: auto;
+  left: 63%;
   right: 0%;
 }
 
@@ -1626,6 +1657,19 @@ h:root {
     height: 25%;
   }
 
+
+.parent-container2
+{
+  display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    top: 210px;
+    margin: 0;
+}
+
   .h1, .h1.shadow_blue, .h1.blue {
     font-size: 70px;
     line-height: 70px;
@@ -1637,7 +1681,7 @@ h:root {
   }
 
   .block_para {
-    width: 95%;
+    width: 100%;
   }
 
   .para {
@@ -1714,8 +1758,12 @@ h:root {
   }
 
   .text-block {
+    
     font-size: 13px;
     line-height: 13px;
+    top: 50px;
+    position: relative;
+    right: 50vh;
   }
 
   .block_ca {
@@ -1763,7 +1811,7 @@ h:root {
     z-index: 10;
     /* background-color: #3eced8; */
     background-image: url(../images/bgfooter2.svg);
-    background-size: 100% auto;
+    /* background-size: 100% auto; */
     background-position: center;
     flex-flow: column;
     justify-content: flex-start;
@@ -1775,6 +1823,16 @@ h:root {
     display: flex;
     position: relative;
     /* top: 50px;*/
+  }
+  .p32{
+    font-size: 30px;
+  }
+
+  .div-block-16{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    font-size: 5px;
   }
 
   .h1{
@@ -1801,14 +1859,14 @@ h:root {
 
   .image-container img{
     max-width: 30vh;
-    top:150px;
+    top:0px;
     height: auto;
     display: block;
     position: absolute;
   }
   .image-containerhands img{
     max-width: 30vh;
-    top:40px;
+    top:-180px;
     height: auto;
     display: block;
     position: absolute;
@@ -1902,6 +1960,7 @@ h:root {
 
   .p3 {
     font-size:30px;
+    line-height: 25px;
   }
 
   .logo_footer {

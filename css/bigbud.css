@@ -1848,7 +1848,7 @@ h:root {
   }
 
   .chart-container{
-    z-index: -1;
+    z-index: 0;
   position: relative;
   display: flex;
   height: 100%;

@@ -65,7 +65,7 @@ h:root {
   max-height: 580px;
   align-items: center;
   /* top:70px; */
-  bottom: 100px;
+  bottom: 200px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -678,7 +678,7 @@ h:root {
 }
 @media (max-width: 600px) {
   .h3 {
-    font-size: 80px;  /* Smaller font size */
+    font-size: 35px;  /* Smaller font size */
     align-items: center;    /* Adjust position */
   bottom: 20px; 
     position: relative;
@@ -957,6 +957,28 @@ h:root {
   bottom: 0%;
   left: 0%;
   right: 0%;
+}
+
+/* Style the iframe to fill the container */
+.para_block iframe {
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  width: 20%;
+  height: 60%;
+}
+
+/* Additional responsive styling */
+@media (max-width: 768px) {
+  .para_block {
+      padding-bottom: 56.25%; /* Maintain aspect ratio */
+  }
+}
+
+@media (max-width: 480px) {
+  .para_block {
+      padding-bottom: 75%; /* Adjust aspect ratio for smaller screens if needed */
+  }
 }
 
 .div-block-4 {
@@ -1715,6 +1737,13 @@ h:root {
   .chara_hero {
     width: 95%;
     height: auto;
+    top:50px;
+  }
+
+  .chara_hands {
+    width: 95%;
+    height: auto;
+    top:550px;
   }
 
   .grass_bg_top, .hero_grass_left, .hero_grass_right {
@@ -1725,9 +1754,68 @@ h:root {
     height: 700px;
   } 
 
-  .h1, .h1.dark, .h1.shadow_dark {
+   .h1.dark, .h1.shadow_dark {
     font-size: 40px;
     line-height: 50px;
+  }
+
+  .footer{
+    z-index: 10;
+    /* background-color: #3eced8; */
+    background-image: url(../images/bgfooter2.svg);
+    background-size: 100% auto;
+    background-position: center;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    height: 940px;
+    padding-top: 0;
+    /* padding-bottom: 25px; */
+    display: flex;
+    position: relative;
+    /* top: 50px;*/
+  }
+
+  .h1{
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .h5{
+    font-size: 35px;
+    line-height: 50px;
+    top: 5PX;
+  }
+
+  .chart-container{
+    z-index: -1;
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 540px;
+  max-height: 580px;
+  align-items: center;
+  top:-300px;
+  /* bottom: 100px; */
+  }
+
+  .image-container img{
+    max-width: 30vh;
+    top:150px;
+    height: auto;
+    display: block;
+    position: absolute;
+  }
+  .image-containerhands img{
+    max-width: 30vh;
+    top:40px;
+    height: auto;
+    display: block;
+    position: absolute;
+  }
+
+  .block_h3{
+    top:70px;
   }
 
   .h1.shadow_blue, .h1.blue {
@@ -1911,7 +1999,7 @@ h:root {
 
 @media (max-width: 1600px) {
   .d1 {
-    font-size: 100px;  /* Smaller font size */
+    font-size: 35px;  /* Smaller font size */
     left: 20px;        /* Adjust position */
     bottom: 20px;     /* Adjust position */
   }
@@ -1919,7 +2007,7 @@ h:root {
 
 @media (max-width: 1600px) {
   .d1.shadow {
-    font-size: 100px;  /* Smaller font size */
+    font-size: 35px;  /* Smaller font size */
     left: 20px;        /* Adjust position */
     bottom: 20px;     /* Adjust position */
   }

@@ -1784,15 +1784,15 @@ h:root {
 
 @media screen and (max-width: 479px) {
   .chara_hero {
-    width: 95%;
+    width: 70%;
     height: auto;
-    top:50px;
+    top:100px;
   }
 
   .chara_hands {
-    width: 95%;
+    width: 70%;
     height: auto;
-    top:550px;
+    top:450px;
   }
 
   .grass_bg_top, .hero_grass_left, .hero_grass_right {

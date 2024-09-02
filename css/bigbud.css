@@ -2612,7 +2612,7 @@ h:root {
   display: flex;
   height: 540px;
   width: 540px;
-  max-height: 580px;
+  /* max-height: 580px; */
   align-items: center;
   top:-300px;
   /* bottom: 100px; */

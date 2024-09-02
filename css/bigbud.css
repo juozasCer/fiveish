@@ -1791,7 +1791,7 @@ h:root {
   }
 
   .chart-container canvas{
-    max-width: 100%;
+    max-width: 367px;
     max-height: 300px;
   }
 

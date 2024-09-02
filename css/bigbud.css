@@ -1524,8 +1524,8 @@ h:root {
   position: absolute;
   top: auto;
   bottom: 0%;
-  left: 0%;
-  right: 0%;
+  /* left: 0%; */
+  /* right: 0%; */
 }
 
 .button-3 {
@@ -1548,7 +1548,7 @@ h:root {
 .button-3:hover {
   background-color: #2d6401;
   font-family:dolla, sans-serif;
-  color: #000000;
+  color: #e6ffd4;
 }
 
 .div-block-16 {

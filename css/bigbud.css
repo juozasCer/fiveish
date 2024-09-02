@@ -1794,7 +1794,7 @@ h:root {
     width: 400px;
     height: 400px;
     position: absolute;
-    left: 7%;
+    /* left: 7%; */
   }
 
   .chara_hands {

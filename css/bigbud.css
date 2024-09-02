@@ -1790,6 +1790,11 @@ h:root {
     top:100px;
   }
 
+  .chart-container canvas{
+    max-width: 100%;
+    max-height: 300px;
+  }
+
   .chara_hands {
     width: 70%;
     height: auto;

@@ -702,6 +702,7 @@ h:root {
 }
 
 .h3 {
+  color:#28862f;
   font-family: dolla, sans-serif;
   font-size: 100px;
   margin-bottom: 100px;
@@ -758,8 +759,8 @@ h:root {
 }
 
 .continue:hover {
-  background-color: #185d75;
-  border-color: #185d75;
+  background-color: #28862f;
+  border-color: #28862f;
 }
 
 .section_about-copy {

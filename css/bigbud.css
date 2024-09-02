@@ -14,7 +14,7 @@ h:root {
   height: 100vh;
   height: 100svh;
   display: flex;
-  position: static;
+  position: relative;
 }
 
 .parent-container {

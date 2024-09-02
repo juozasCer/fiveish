@@ -1792,12 +1792,15 @@ h:root {
 
   .chara_hands {
     width: 70%;
-    height: auto;
+    /* height: auto; */
     top:450px;
   }
 
   .grass_bg_top, .hero_grass_left, .hero_grass_right {
     height: 15%;
+  }
+  .buy-now-btn {
+    font-size: 10px;
   }
 
    .section_about {

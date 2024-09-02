@@ -236,7 +236,7 @@ h:root {
 }
 
 .buy-now-btn {
-  background-color: #13a337; /* Button color */
+  background-color: #008000; /* Button color */
   color: white; /* Text color */
   padding: 15px 30px; /* Padding inside the button */
   text-align: center; /* Center the text */
@@ -253,7 +253,7 @@ h:root {
 
 
 .buy-now-btn:hover {
-  background-color: #138da3; /* Darker color on hover */
+  background-color: #2d6401; /* Darker color on hover */
   font-family: dolla;
 }
 .text-line {

@@ -2513,6 +2513,252 @@ h:root {
     left:10px;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .chara_hero {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    top:100px;
+  }
+  
+
+  .moving-background {
+    z-index: 10;
+    top:100px;
+    /* position: relative; */
+    width: 200%; /* Double the width to hold two images side by side */
+    height: 65px;
+    overflow: hidden;
+    background-image: url('../images/bill.png'), url('../images/bill.png'); /* Two images */
+    background-size: auto 100%; /* Ensure image stretches to fit height */
+    background-repeat: repeat-x; /* Repeat horizontally */
+    background-position: 0 0, 0 0; /* Start positions of two images */
+    animation: move-element 5s linear infinite; /* Apply animation */
+  }
+  
+
+  .chart-container canvas{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /* left: 7%; */
+  }
+
+  .chara_hands {
+    width: 70%;
+    height: auto;
+    top:650px;
+  }
+
+  .grass_bg_top, .hero_grass_left, .hero_grass_right {
+    height: 15%;
+  }
+  .buy-now-btn {
+    font-size: 10px;
+  }
+
+   .section_about {
+    height: 700px;
+  } 
+
+   .h1.dark, .h1.shadow_dark {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .footer{
+    z-index: 10;
+    /* background-color: #3eced8; */
+    background-image: url(../images/bgfooter2.svg);
+    /* background-size: 100% auto; */
+    background-position: center;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    height: 910px;
+    padding-top: 0;
+    /* padding-bottom: 25px; */
+    display: flex;
+    position: relative;
+    /* top: 50px;*/
+  }
+  .p32{
+    font-size: 30px;
+  }
+
+  .div-block-16{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    font-size: 5px;
+  }
+
+  .h1{
+    margin-top: 50px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .h5{
+    font-size: 35px;
+    line-height: 50px;
+    top: 5PX;
+  }
+
+  .chart-container{
+  z-index: 0;
+  position: relative;
+  display: flex;
+  height: 540px;
+  width: 540px;
+  max-height: 580px;
+  align-items: center;
+  top:-300px;
+  /* bottom: 100px; */
+  }
+
+  .image-container img{
+    max-width: 30vh;
+    top:0px;
+    height: auto;
+    display: block;
+    position: absolute;
+  }
+  .image-containerhands img{
+    max-width: 30vh;
+    top:-130px;
+    height: auto;
+    display: block;
+    position: absolute;
+  }
+
+  .block_h3{
+    top:70px;
+  }
+
+  .h1.shadow_blue, .h1.blue {
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+  .chara_about {
+    width: 90%;
+    height: auto;
+  }
+
+  .block_para {
+    top: -63px;
+  }
+
+  .para {
+    font-size: 9px;
+  }
+
+  .chara_tokenomics {
+    width: 90%;
+    height: auto;
+  }
+
+  .ca {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .footer_button {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .header_right, .menu_socials {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+
+  .biglogo {
+    top: -150px;
+    width: 500px;
+  }
+
+  .continue {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .section_about-copy {
+    height: 700px;
+  }
+
+  .about_chara {
+    width: 320px;
+    align-items: center;
+  }
+
+  .separator_weed {
+    /* display: none; */
+  }
+
+  .separator_top, .separator_bottom, .separator_dark {
+    height: 40px;
+  }
+
+  .para_block {
+    padding: 20px 35px;
+  }
+
+  .blue_sep {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .p3 {
+    font-size:30px;
+    line-height: 25px;
+  }
+
+  .logo_footer {
+    display: block;
+  }
+
+  .image-3 {
+    height: 350px;
+  }
+
+  .banner_title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .block_ca {
+    justify-content: center;
+    width: 98%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .ca_txt {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .copy {
+    background-size: 70%;
+    width: 25px;
+    height: 25px;
+    top:150px;
+    left:10px;
+  }
+}
+
+
 @media screen and (max-width: 375px) {
   .chara_hero {
     width: 70%;

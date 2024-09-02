@@ -1793,6 +1793,8 @@ h:root {
   .chart-container canvas{
     max-width: 300px;
     max-height: 300px;
+    position: absolute;
+    left: 7%;
   }
 
   .chara_hands {

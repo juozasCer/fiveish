@@ -2028,6 +2028,7 @@ h:root {
 
 @media screen and (max-width: 700px) {
   .chara_hero {
+    position: relative;
     width: 70%;
     height: 70%;
     top:100px;
@@ -2271,6 +2272,7 @@ h:root {
 
 @media screen and (max-width: 500px) {
   .chara_hero {
+    position: relative;
     width: 70%;
     height: 70%;
     top:100px;
@@ -2514,6 +2516,7 @@ h:root {
 @media screen and (max-width: 375px) {
   .chara_hero {
     width: 70%;
+    position: relative;
     /* height: auto; */
     top:100px;
   }

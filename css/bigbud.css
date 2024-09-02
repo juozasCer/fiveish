@@ -70,8 +70,8 @@ h:root {
 
 @media only screen and (max-width: 600px) {
   .chart-container canvas {
-      max-width: 300px;
-      max-height: 300px;
+      width: 400px;
+      height: 400px;
       /* Adjust based on your layout needs */
   }
 
@@ -1791,8 +1791,8 @@ h:root {
   }
 
   .chart-container canvas{
-    max-width: 300px;
-    max-height: 300px;
+    width: 400px;
+    height: 400px;
     position: absolute;
     left: 7%;
   }

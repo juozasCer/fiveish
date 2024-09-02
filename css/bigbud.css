@@ -1786,13 +1786,13 @@ h:root {
 @media screen and (max-width: 479px) {
   .chara_hero {
     width: 70%;
-    height: auto;
+    /* height: auto; */
     top:100px;
   }
 
   .chara_hands {
     width: 70%;
-    /* height: auto; */
+    height: auto;
     top:450px;
   }
 
